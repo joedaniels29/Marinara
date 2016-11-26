@@ -1,0 +1,60 @@
+//
+//  QuotesViewController.swift
+//  Marinara
+//
+//  Created by Joseph Daniels on 24/08/16.
+//  Copyright © 2016 Joseph Daniels. All rights reserved.
+//
+
+import Foundation
+import AppKit
+struct Quote {
+    let text: String
+    let author: String
+    
+    static let all: [Quote] = [
+        Quote(text: "Never put off until tomorrow what you can do the day after tomorrow.", author: "Mark Twain"),
+        Quote(text: "Efficiency is doing better what is already being done.", author: "Peter Drucker"),
+        Quote(text: "To infinity and beyond!", author: "Buzz Lightyear"),
+        Quote(text: "May the Force be with you.", author: "Han Solo"),
+        Quote(text: "Simplicity is the ultimate sophistication", author: "Leonardo da Vinci"),
+        Quote(text: "It’s not just what it looks like and feels like. Design is how it works.", author: "Steve Jobs")
+    ]
+}
+
+// MARK: - Printable
+
+
+class QuotesViewController:NSViewController{
+    @IBOutlet var textLabel: NSTextField!
+    let quotes = Quote.all
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        
+        currentQuoteIndex = 0
+    }
+    var currentQuoteIndex: Int = 0 {
+        didSet {
+            updateQuote()
+        }
+    }
+    func updateQuote() {
+        textLabel.stringValue = quotes[currentQuoteIndex].text
+    }
+}
+
+// MARK: Actions
+
+extension QuotesViewController {
+    @IBAction func goLeft(sender: NSButton) {
+         currentQuoteIndex = (currentQuoteIndex - 1 + quotes.count) % quotes.count
+    }
+    
+    @IBAction func goRight(sender: NSButton) {
+          currentQuoteIndex = (currentQuoteIndex + 1) % quotes.count
+    }
+    
+    @IBAction func quit(sender: NSButton) {
+          NSApplication.sharedApplication().terminate(sender)
+    }
+}

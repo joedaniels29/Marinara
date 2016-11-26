@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73792111AC317B23D6C7141D /* Pods_Marinara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C744C6E7DFE4DC5AA3006B41 /* Pods_Marinara.framework */; };
+		D89B1FD31D6F69CC007D961B /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89B1FD21D6F69CC007D961B /* Timer.storyboard */; };
+		D8F32B051D6E851E002CD54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F32B041D6E851E002CD54E /* AppDelegate.swift */; };
+		D8F32B071D6E851E002CD54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F32B061D6E851E002CD54E /* ViewController.swift */; };
+		D8F32B091D6E851E002CD54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F32B081D6E851E002CD54E /* Assets.xcassets */; };
+		D8F32B0C1D6E851E002CD54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F32B0A1D6E851E002CD54E /* Main.storyboard */; };
+		D8F32B141D6E885F002CD54E /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F32B131D6E885F002CD54E /* QuotesViewController.swift */; };
+		D8F32B161D6E8CCD002CD54E /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F32B151D6E8CCD002CD54E /* EventMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90D81D81DDE56D7CB50A876 /* Pods-Marinara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marinara.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marinara/Pods-Marinara.debug.xcconfig"; sourceTree = "<group>"; };
+		C744C6E7DFE4DC5AA3006B41 /* Pods_Marinara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marinara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DA2BF7DE8EC68436A2CE00 /* Pods-Marinara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marinara.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marinara/Pods-Marinara.release.xcconfig"; sourceTree = "<group>"; };
+		D89B1FD21D6F69CC007D961B /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		D8F32B011D6E851E002CD54E /* Marinara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marinara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F32B041D6E851E002CD54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8F32B061D6E851E002CD54E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8F32B081D6E851E002CD54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F32B0B1D6E851E002CD54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F32B0D1D6E851E002CD54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F32B131D6E885F002CD54E /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		D8F32B151D6E8CCD002CD54E /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F32AFE1D6E851E002CD54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73792111AC317B23D6C7141D /* Pods_Marinara.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5960C4ED3157B2D1036B6BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C744C6E7DFE4DC5AA3006B41 /* Pods_Marinara.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A4B730784A46A792104A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B90D81D81DDE56D7CB50A876 /* Pods-Marinara.debug.xcconfig */,
+				C8DA2BF7DE8EC68436A2CE00 /* Pods-Marinara.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8F32AF81D6E851D002CD54E = {
+			isa = PBXGroup;
+			children = (
+				D8F32B031D6E851E002CD54E /* Marinara */,
+				D8F32B021D6E851E002CD54E /* Products */,
+				A2A4B730784A46A792104A7B /* Pods */,
+				5960C4ED3157B2D1036B6BC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F32B021D6E851E002CD54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F32B011D6E851E002CD54E /* Marinara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F32B031D6E851E002CD54E /* Marinara */ = {
+			isa = PBXGroup;
+			children = (
+				D8F32B041D6E851E002CD54E /* AppDelegate.swift */,
+				D8F32B061D6E851E002CD54E /* ViewController.swift */,
+				D8F32B081D6E851E002CD54E /* Assets.xcassets */,
+				D8F32B0A1D6E851E002CD54E /* Main.storyboard */,
+				D8F32B131D6E885F002CD54E /* QuotesViewController.swift */,
+				D8F32B151D6E8CCD002CD54E /* EventMonitor.swift */,
+				D8F32B0D1D6E851E002CD54E /* Info.plist */,
+				D89B1FD21D6F69CC007D961B /* Timer.storyboard */,
+			);
+			path = Marinara;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F32B001D6E851E002CD54E /* Marinara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F32B101D6E851E002CD54E /* Build configuration list for PBXNativeTarget "Marinara" */;
+			buildPhases = (
+				07BDD8B98F9FF5233EF6910C /* [CP] Check Pods Manifest.lock */,
+				D8F32AFD1D6E851E002CD54E /* Sources */,
+				D8F32AFE1D6E851E002CD54E /* Frameworks */,
+				D8F32AFF1D6E851E002CD54E /* Resources */,
+				07BB97BD0018A1A3957323FB /* [CP] Embed Pods Frameworks */,
+				28D1C4012BB60D7DD61180C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marinara;
+			productName = Marinara;
+			productReference = D8F32B011D6E851E002CD54E /* Marinara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F32AF91D6E851D002CD54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Joseph Daniels";
+				TargetAttributes = {
+					D8F32B001D6E851E002CD54E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8F32AFC1D6E851D002CD54E /* Build configuration list for PBXProject "Marinara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F32AF81D6E851D002CD54E;
+			productRefGroup = D8F32B021D6E851E002CD54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F32B001D6E851E002CD54E /* Marinara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F32AFF1D6E851E002CD54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F32B091D6E851E002CD54E /* Assets.xcassets in Resources */,
+				D89B1FD31D6F69CC007D961B /* Timer.storyboard in Resources */,
+				D8F32B0C1D6E851E002CD54E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07BB97BD0018A1A3957323FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marinara/Pods-Marinara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07BDD8B98F9FF5233EF6910C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28D1C4012BB60D7DD61180C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marinara/Pods-Marinara-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F32AFD1D6E851E002CD54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F32B071D6E851E002CD54E /* ViewController.swift in Sources */,
+				D8F32B141D6E885F002CD54E /* QuotesViewController.swift in Sources */,
+				D8F32B051D6E851E002CD54E /* AppDelegate.swift in Sources */,
+				D8F32B161D6E8CCD002CD54E /* EventMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8F32B0A1D6E851E002CD54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F32B0B1D6E851E002CD54E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F32B0E1D6E851E002CD54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8F32B0F1D6E851E002CD54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D8F32B111D6E851E002CD54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90D81D81DDE56D7CB50A876 /* Pods-Marinara.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Marinara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.Marinara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		D8F32B121D6E851E002CD54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DA2BF7DE8EC68436A2CE00 /* Pods-Marinara.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Marinara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.Marinara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F32AFC1D6E851D002CD54E /* Build configuration list for PBXProject "Marinara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F32B0E1D6E851E002CD54E /* Debug */,
+				D8F32B0F1D6E851E002CD54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F32B101D6E851E002CD54E /* Build configuration list for PBXNativeTarget "Marinara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F32B111D6E851E002CD54E /* Debug */,
+				D8F32B121D6E851E002CD54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F32AF91D6E851D002CD54E /* Project object */;
+}
